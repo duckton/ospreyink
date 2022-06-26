@@ -1,0 +1,23 @@
+#logo {
+  width: 150px;
+}
+
+#gallery img:hover {
+  transition-property: transform;
+  transition-duration: 0.21s;
+  transform: scale(1.025);
+}
+
+figure {
+  margin-bottom: 10px;
+}
+
+svg:hover {
+  transition-property: transform;
+  transition-duration: 0.21s;
+  transform: scale(1.25);
+}
+
+.hidden {
+  display: none;
+}
